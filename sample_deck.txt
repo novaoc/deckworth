@@ -1,0 +1,27 @@
+# Charizard ex deck (Obsidian Flames format)
+# Paste exported from PTCGL
+
+Pokémon: 14
+4 Charizard ex OBF 125
+2 Charmander OBF 26
+2 Charmeleon OBF 27
+3 Pidgeot ex OBF 164
+2 Pidgey MEW 16
+1 Rotom V CRZ 45
+
+Trainer: 36
+4 Arven SVI 166
+4 Boss's Orders PAL 172
+2 Iono PAL 185
+2 Professor's Research SVI 189
+3 Rare Candy SVI 191
+4 Ultra Ball SVI 196
+4 Nest Ball SVI 181
+3 Pal Pad SVI 182
+2 Lost Vacuum CRZ 135
+3 PokéStop PGO 68
+3 Town Store OBF 196
+2 Temple of Sinnoh ASR 155
+
+Energy: 10
+10 Basic Fire Energy SVE 2
