@@ -94,9 +94,9 @@ def _best_price(prices: dict) -> tuple[Optional[float], str]:
 
 def fetch_price(card: CardEntry) -> CardEntry:
     """Query pokemontcg.io for this card's market price."""
-    if card.set_code and card.number:
-        # Precise lookup by set + number
-        query = f'number:"{card.number}" set.ptcgoCode:"{card.set_code}"'
+    if card.number:
+        # Query by name + collector number (ptcgoCode doesn't match PTCGL exports)
+        query = f'name:"{card.name}" number:"{card.number}"'
     else:
         query = f'name:"{card.name}"'
 
