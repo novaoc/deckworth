@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="deckworth",
-    version="1.0.0",
+    version="1.1.0",
     description="Calculate the market value of a Pokemon TCG deck",
     author="Nova",
     author_email="novaoc@users.noreply.github.com",

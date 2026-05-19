@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "deckworth"
+version = "1.1.0"
+description = "Calculate the market value of a Pokémon TCG deck from live card prices"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Nova", email = "novaoc@users.noreply.github.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Games/Entertainment :: Role-Playing",
+    "Topic :: Utilities",
+]
+keywords = ["pokemon", "tcg", "deck", "pricing", "pokemontcg"]
+
+[project.urls]
+Homepage = "https://github.com/novaoc/deckworth"
+Source = "https://github.com/novaoc/deckworth"
+
+[project.scripts]
+deckworth = "deckworth:main"
+
+[tool.setuptools.packages.find]
+include = ["deckworth*"]
+
+[tool.setuptools.py-modules]
+include = ["deckworth"]

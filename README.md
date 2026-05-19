@@ -44,6 +44,15 @@ deckworth deck.txt --format json
 # CSV (for spreadsheets)
 deckworth deck.txt --format csv > prices.csv
 
+# Track value over time (take a snapshot)
+deckworth deck.txt --snapshot "My Charizard Deck"
+
+# See historical snapshots
+deckworth --history "My Charizard Deck"
+
+# Summary statistics
+deckworth deck.txt --stats
+
 # Slow down API calls (default: 0.15s between requests)
 deckworth deck.txt --delay 0.3
 ```
@@ -84,6 +93,11 @@ A sample deck is included: [`sample_deck.txt`](sample_deck.txt)
 | `--format table` | Human-readable table (default) |
 | `--format json` | Machine-readable JSON with full details |
 | `--format csv` | Spreadsheet-friendly CSV |
+| `--snapshot NAME` | Save deck value to history (~/.deckworth/NAME.csv) |
+| `--history NAME` | Show value-over-time chart for a snapshot deck |
+| `--stats` | Summary statistics (mean, median, most/least expensive) |
+| `--delay SECS` | Set delay between API calls (default: 0.15s) |
+| `--version` | Show version number |
 
 ## Caveats
 
